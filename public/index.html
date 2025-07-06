@@ -490,33 +490,23 @@
 							Address Information
 					</h2>
 				
-					
-					<div class="form-group">
-							<label for="street_line1" class="control-label">Street Address Line 1</label>
-							<input type="text" class="form-control" id="street_line1" name="street_line1" placeholder="Street Address" maxlength="75">
-					</div>
-					
-					<div class="form-group">
-							<label for="street_line2" class="control-label">Street Address Line 2</label>
-							<input type="text" class="form-control" id="street_line2" name="street_line2" placeholder="Apartment, Suite, etc." maxlength="75">
-					</div>
-					
-					<div class="form-group">
-							<label for="street_line3" class="control-label">Street Address Line 3</label>
-							<input type="text" class="form-control" id="street_line3" name="street_line3" placeholder="Additional Address Info" maxlength="75">
-					</div>
+                    <div class="form-group">
+                        <label for="street_line1" class="control-label">Address</label>
+                        <textarea class="form-control" id="street_line1" name="street_line1" rows="3" maxlength="150"
+                            placeholder="If you live outside the US, just enter your address into this box however you would if you were back home!"></textarea>
+                    </div>
 					
 					<div class="row">
 							<div class="col-md-4">
 									<div class="form-group">
-											<label for="city" class="control-label">City</label>
+											<label for="city" class="control-label">City/Town/Village (or nearest one)</label>
 											<input type="text" class="form-control" id="city" name="city" placeholder="City" maxlength="50">
 									</div>
 							</div>
 							<div class="col-md-4">
 									<div class="form-group">
-											<label for="state_code" class="control-label">State</label>
-											<input type="text" class="form-control" id="state_code" name="state_code" placeholder="State Code" maxlength="3">
+											<label for="state_code" class="control-label">State/Province/Region</label>
+											<input type="text" class="form-control" id="state_code" name="state_code" placeholder="e.g., California, Ontario, Punjab, or New South Wales" maxlength="50">
 									</div>
 							</div>
 							<div class="col-md-4">
@@ -530,7 +520,7 @@
 					<div class="row">
 							<div class="col-md-4">
 									<div class="form-group">
-											<label for="nation_code" class="control-label">Nation</label>
+											<label for="nation_code" class="control-label">Country</label>
 											<select class="form-control" id="nation_code" name="nation_code">  <option value="157">United States of America</option>
                                                         <option value="27">Canada</option>
                                                         <option value="1">Afghanistan</option>
@@ -803,8 +793,8 @@
 					<div class="row">
 							<div class="col-md-4">
 									<div class="form-group">
-											<label for="phone" class="control-label">Phone Number</label>
-											<input type="text" class="form-control" id="phone" name="phone" placeholder="(555) 123-4567" maxlength="20">
+											<label for="phone" class="control-label">Phone Number (Please Include Country Code)</label>
+											<input type="text" class="form-control" id="phone" name="phone" placeholder="+1 (123) 456-7890" maxlength="20">
 									</div>
 							</div>
 							<div class="col-md-3">
